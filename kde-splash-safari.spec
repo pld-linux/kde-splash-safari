@@ -20,10 +20,10 @@ BuildArch:	noarch
 BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
 
 %description
-"Safari" KDE splash screen.
+If you are dreaming of safari, you will surely like this splash screen.
 
 %description -l pl
-Ekran startowy KDE "Safari".
+Je¿eli marzysz o safari, z pewno¶ci± polubisz ten ekran startowy.
 
 %prep
 %setup -q -c %{_splash} -n %{_splash}

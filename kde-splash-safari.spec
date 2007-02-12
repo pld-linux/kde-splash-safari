@@ -2,7 +2,7 @@
 %define		_splash		safari
 
 Summary:	KDE splash screen
-Summary(pl):	Ekran startowy KDE
+Summary(pl.UTF-8):   Ekran startowy KDE
 Name:		kde-splash-%{_splash}
 Version:	0.2
 Release:	2
@@ -22,8 +22,8 @@ BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
 %description
 If you are dreaming of safari, you will surely like this splash screen.
 
-%description -l pl
-Jeøeli marzysz o safari, z pewno∂ci± polubisz ten ekran startowy.
+%description -l pl.UTF-8
+Je≈ºeli marzysz o safari, z pewno≈õciƒÖ polubisz ten ekran startowy.
 
 %prep
 %setup -q -c %{_splash} -n %{_splash}
